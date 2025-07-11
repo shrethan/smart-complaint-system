@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Complaints</title></head>
+<body>
+    <h2>All Complaints</h2>
+    <table border="1">
+        <tr>
+            <th>ID</th><th>Title</th><th>Status</th><th>Assigned To</th>
+        </tr>
+        {% for c in complaints %}
+        <tr>
+            <td>{{ c.id }}</td>
+            <td>{{ c.title }}</td>
+            <td>{{ c.status }}</td>
+            <td>{{ c.assigned_to or 'Unassigned' }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
