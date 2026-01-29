@@ -1,5 +1,5 @@
 # 🛠️ Smart Complaint Management System (SCMS)
-INS
+INS 
 A robust web application built with **Python (Flask)** to streamline the process of lodging and resolving complaints for organizations. Includes user authentication, admin panel, PDF & CSV reporting, and RESTful API integration.
 
 ---
